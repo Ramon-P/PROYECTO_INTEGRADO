@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html, body {
+
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins' , sans-serif;
+  color: #222;
+
+}
+.navbar{
+  padding: .8rem;
+}
+
+.navbar-nav li{
+
+
+  padding-right: 20px;
+}
+
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.carousel-inner img{
+
+width: 100%;
+height: 100%;
+
+}
+
+
+.carousel-caption{
+position: absolute;
+
+top: 50%;
+
+transform:translateY(-50%)
+
+}
+
+
+.carousel-caption h1 {
+
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 10px 5px 10px #000;
+}
+
+.carousel-caption h3{
+
+font-size: 200%;
+font-weight: 500;
+text-shadow: 1px 1px 10px #000;
+padding-bottom: 1rem ;
+}
+
+.btn-primary{
+
+
+  background-color: #6648b1;
+
+  border: 1px solid #563d7c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #47a386;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: #fff;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.jumbotron{
+
+  padding: 1rem;
+
+  border-radius: 0;
+}
+.welcome{ 
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr{
+
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom:1rem;
+}
+
+.social a{
+
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook{
+
+  color:#3b5998
+}
+
+.fa-twitter{
+color: #00aced ;
+
+
+}
+
+.fa-google-plus-g{
+
+  color: #dd4b39;
+}
+
+.fa-instagram{
+
+  color: #517fa4;
+
+}
+
+.fa-youtube{
+
+  color:#bb0000 ;
+
+}
+
+
+footer{
+
+  background-color:#3f3f3f;
+  color: #d5d5d5;
+
+   padding-top: 2rem;
+}
+
+hr.light{
+
+  border-top: 1px solid #d5d5d5; 
+  width: 75%;
+  margin-top: .8rem ;
+  margin-bottom: 1rem;
+}
+footer a{
+
+  color: #d5d5d5;
+}
+hr.light-100{
+
+  border-top: 1px solid #d5d5d5; 
+  width: 100%;
+  margin-top: .8rem ;
+  margin-bottom: 1rem;
+}
+
+
+
+/*---Consolas vs pc --*/
+
+.part2{
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+.img2{
+  padding: 5%;
+  margin-top: 1rem
+  
+  
+}
+
+.txt1{
+font-size:24px ;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin-bottom: 7%;
+}
+
+
+.PCven{
+border: 1px solid;
+width: 1000px;
+height: auto; 
+text-align: left;
+font-size: 20px;
+margin: auto;
+margin-bottom: 150px;
+padding: 1.7%;
+}
+
+
+.ConsVen{
+
+  border: 1px solid;
+  width: 1000px;
+  height: auto; 
+  text-align: left;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 150px;
+  padding: 1.7%;
+  
+
+}
+
+/*---Formulario comuidad --*/
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+.contenedor article {
+	line-height: 28px;
+}
+
+.contenedor article p {
+	margin-bottom: 20px;
+}
+
+.contenedor article .btn-abrir-popup {
+  align-items: center;
+  padding: 0 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #000000;
+	background: #00FEF0;
+	border-radius: 3px;
+	font-family: 'Georgia', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+  cursor: pointer;
+ justify-content: center;
+}
+
+.contenedor article .btn-abrir-popup:hover {
+	background: rgba(94,125,227, .9);
+}
+
+
+.overlay {
+	background: rgba(0,0,0,.3);
+  position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+}
+
+.overlay.active {
+	visibility: visible;
+}
+
+.popup {
+	background: hsl(0,0%,100%) ;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.popup .btn-cerrar-popup {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #BBBBBB;
+}
+
+.popup .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+
+.popup h4 {
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs {
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+}
+
+.popup form .btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+	background: rgba(94,125,227, .9);
+}
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup.active {	transform: scale(1); opacity: 1; }
+.popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
+.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+
+
+
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+   .social a{
+     font-size: 4em;
+     padding: 2rem;
+
+   }
+  }
+@media (max-width: 768px) {
+  
+.carousel-caption{
+  
+  top: 45%;
+  
+  }
+  
+  
+  .carousel-caption h1 {
+  
+    font-size: 350% ;
+  }
+  
+  .carousel-caption h3{
+  
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: 2rem ;
+  }
+  .carousel-caption .btn{
+    font-size: 95%;
+    padding:8px 14px;
+  }
+  .display-4{
+    font-size: 200%;
+  }
+  .social a{
+    font-size: 2,5em;
+    padding: 1,2rem;
+
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption{
+  
+    top: 40%;
+    
+    }
+    
+    
+    .carousel-caption h1 {
+    
+      font-size: 250% ;
+    }
+    
+    .carousel-caption h3{
+    
+    font-size: 110%;
+   
+    }
+    .carousel-caption .btn{
+      font-size: 90%;
+      padding:4px 8px;
+    }
+    .display-4{
+
+      font-size:160%;
+
+    }
+    .social a{
+
+      font-size: 2em;
+      padding: .7rem;
+    }
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

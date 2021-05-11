@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GameOn.com</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+
+<body>
+
+    <!--- Navegador -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href ="#abajo">
+                <img src ="imagenes jaume/mando-logo.jpg" width="50" height ="50">  <!-- Imagen del logo -->
+            </a>
+            <button class = "navbar-toggler" type="button" data-toogle="collapse"
+            data-target="#navbarResponsive">
+            
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class = "collapse navbar-collapse" id="navbarResponsive">
+    
+                <ul class="navbar-nav ml-auto">
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="HOME.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Comunidad.html">Comunidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Juegos mas esperados.html">Juegos mas esperados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Consolas vs pc.html">Consolas vs PC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Acerca de .html">Acerca de</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <!--- Bienvenida -->
+
+    <div class = "container-fluid padding">
+        <div class="row welcome text-center">
+    
+        <div class ="col-12">
+            <h1 class ="display-4">Apartado de la Comunidad</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class ="lead">Aqui podras encontrar un apartado para vosotros en donde podreis encontrar noticias sobre nuestra comunidad </p>
+            <p>Pero antes de eso tendras que registrarte para entrar</p>
+        </div>
+        </div>
+    </div>
+
+ <!--- formulario -->
+ <div class="contenedor">
+    <article class="text-center">
+    
+        <button id="btn-abrir-popup" class="btn-abrir-popup">Pulsa para registrarte</button>
+        
+    </article>
+
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>Registrate</h3>
+            <h4>para estar al tanto de todo.</h4>
+            <form action="">
+                <div class="contenedor-inputs">
+                    <input type="email" placeholder="Correo">
+                    <input type="passsword" placeholder="Contraseña">
+                </div>
+                <input type="submit" class="btn-submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+    
+
+
+
+     <!--- Redes -->
+
+    <!--- Footer -->
+    <footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4"></div>
+            
+            <hr class="light">
+            <p>882-778-0180</p>
+            <p><sduartre@gmail class="com"></sduartre@gmail></p>
+            <p>C.Llauradors 8</p>
+            <p>Almussafes,Valencia,46440</p>
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            <h5>Horario de respuestas</h5>
+            <hr class="light">
+            <p>Lunes de 9:00 a 18:00</p>
+            <p>Sabado y Domingo: de 11:00 a 23:00</p>
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            <h5>Centros de atencion en España</h5>
+            <hr class="light">
+            <p>Madrid</p>
+            <p>Barcelona</p>
+            <p>Valencia</p>
+            <p>Guadalajara</p>
+        </div>
+        <div class="col-12">
+            <hr class="light-100">
+            <h5>&copy;<GameOn class="com"></GameOn></h5>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <article>
+
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Conecta con nosotros</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://es-es.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/login?lang=es"><i class="fab fa-twitter"></i></a>
+                    <a href="https://workspace.google.com/signup/businessstarter/welcome?hl=en"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>	
+                    <a href="https://www.youtube.com/index?gl=ES&hl=es"><i class="fab fa-youtube"></i></a>	
+                    <a href="https://discord.com/"><i class="fab fa-discord"></i></a>			
+                </div>
+            </div>
+        </div>
+    </article>
+    </footer>
+
+</body>
+</html>
