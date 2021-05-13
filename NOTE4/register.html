@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario Ajax</title>
+    <script src="js/message.js"></script>
+</head>
+
+<body>
+    <h1>Formulario Ajax</h1>
+    <form action="" method="POST" id="formulario">
+        <div class="form_description">
+            <h2>Contacto</h2>
+            <p>Envíanos tus comentarios o preguntas.</p>
+        </div>
+        <ul>
+            <li id="li_1">
+                <label class="description" for="email">Email </label>
+                <div>
+                    <input name="email" class="element text small" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <li id="li_2">
+                <label class="description" for="password">Password </label>
+                <div>
+                    <input name="password" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <li id="li_3">
+                <label class="description" for="user">Usuario </label>
+                <div>
+                    <input name="user" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+
+
+            <li class="buttons">
+                <input id="saveForm" class="button_text" type="submit" name="submit" value="Enviar" />
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>
