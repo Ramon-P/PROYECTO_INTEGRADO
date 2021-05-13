@@ -1,0 +1,28 @@
+
+
+.posit{
+    background-repeat:no-repeat ;
+    background-image:url(posit.png) ;
+    width: 560px;
+    height: 560px;
+    padding: 150px;
+
+}
+.input-contenedor textarea{
+  margin-left: 40px;
+  background-color:rgb(252, 243, 119);
+   border-style:hidden ; 
+   width: 294px;
+    height: 252px; 
+    
+}
+textarea{
+    resize: none;
+    
+}
+
+.input-contenedor textarea:focus{
+border: none;
+outline: none;
+
+}
