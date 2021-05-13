@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Note4All</title>
-	</head>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<body>
-		
+
+<head>
+	<meta charset="utf-8" />
+	<title>Note4All</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+<body>
 
 
 
 
-		<table id="cabecera">
-			<tr>
-				<td ><img id="logo" src="logo.png"></td>
-				<td id= "sep">xasdasdads</td>
+<div id="contenedor">
+	<table id="cabecera">
+		<tr>
+			<td><img id="logo" src="logo.png"></td>
+			<td id="sep">Note4All</td>
 
-				<td id= "sep">
-					 <!-- <button id="btn-abrir-popup" class="btn-abrir-popup">Pulsa para registrarte</button> -->
-					<button id ="boton" class="oculta">Usuario</button></td>
-					<div id="opcioines">
-						
-						
-							<td><button id="opcioines">Usuario</button></td>
-							<td><button id="opcioines">Usuario</button></td>
-							<td><button id="opcioines">Usuario</button></td>
-						
-					
+			<td id="sep">
+				<!-- <button id="btn-abrir-popup" class="btn-abrir-popup">Pulsa para registrarte</button> -->
+				<button id="boton" class="oculta"><img src="perf.png" id="perfil"></button></td>
+
+			<td>
+				<divid id="opcioines">
+
+					<button>sing out</button>
+					<button>Editar ususario</button>
+					<button>Guardar</button>
+
 					</div>
-			</tr>
-		</table>
+
+			</td>
+		</tr>
+	</table>
 
 	<div id="fondo">
 
 		<table id="menu">
 			<tr>
-				
+
 				<td>
 					<div id="buscador">
-						<input type="text" name="buscador"> <button ><img src="lupa.png" id="lupa"></button>
+						<input type="text" name="buscador"> <button><img src="lupa.png" id="lupa"></button>
 					</div>
 				</td>
 			</tr>
@@ -53,18 +57,18 @@
 		</table>
 
 
-		
+
 		<table id="mod_text">
 			<tr>
-				
+
 				<td>
 					<div>
 						<p>letra</p>
-						<select name="letra" >
-						   <option value="1">normal</option> 
-						   <option value="2">cursiva</option> 
-						   <option value="3">negrita</option>
- 
+						<select name="letra">
+							<option value="1">normal</option>
+							<option value="2">cursiva</option>
+							<option value="3">negrita</option>
+
 						</select>
 					</div>
 				</td>
@@ -72,14 +76,14 @@
 					<div>
 						<p>color</p>
 						<select name="color">
-						   <option value="1">negro</option> 
-						   <option value="2">rojo</option> 
-						   <option value="3">verde</option>
- 
+							<option value="1">negro</option>
+							<option value="2">rojo</option>
+							<option value="3">verde</option>
+
 						</select>
 
 
-						<button >nueva nota</button>
+						<button>nueva nota</button>
 					</div>
 				</td>
 			<tr>
@@ -87,10 +91,10 @@
 					<div>
 						<p>tamaño</p>
 						<select name="tamaño">
-						   <option value="1">10px</option> 
-						   <option value="2">20px</option> 
-						   <option value="3">50px</option>
- 
+							<option value="1">10px</option>
+							<option value="2">20px</option>
+							<option value="3">50px</option>
+
 						</select>
 					</div>
 				</td>
@@ -98,47 +102,47 @@
 					<div>
 						<p>fuente</p>
 						<select name="fuente">
-						   <option value="1">Calibri</option> 
-						   <option value="2">Arial</option> 
-						   <option value="3">Californian FB</option>
- 
+							<option value="1">Calibri</option>
+							<option value="2">Arial</option>
+							<option value="3">Californian FB</option>
+
 						</select>
 					</div>
 				</td>
 			</tr>
-				
-			
+
+
 			</tr>
 		</table>
 		<div id="corcho">
 			<p>sdff</p>
 		</div>
-	
-	</div>
-<div class="contenedor">
-    
 
-    <div class="overlay" id="overlay">
-        <div class="popup" id="popup">
-            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-            <h3><img id="logo" src="logo.png">Registrate</h3>
-            <h4>para estar al tanto de todo.</h4>
-            <form action="">
-                <div class="contenedor-inputs">
-                    <input type="email" placeholder="Correo">
-                    <input type="passsword" placeholder="Contraseña">
-                </div>
-                 <button id="btn-abrir-popup" class="btn-abrir-popup">Pulsa para registrarte</button>
-                <input type="submit" class="btn-submit" value="Enviar">
-            </form>
-        </div>
-    </div>
+	</div>
+	<div class="contenedor">
+
+
+		<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3><img id="logo" src="logo.png">Registrate</h3>
+				<h4>para estar al tanto de todo.</h4>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="email" placeholder="Correo">
+						<input type="passsword" placeholder="Contraseña">
+					</div>
+					<button id="btn-abrir-popup" class="btn-abrir-popup">Pulsa para registrarte</button>
+					<input type="submit" class="btn-submit" value="Enviar">
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
 
 
 
-
 	<script src="popup.js"></script>
-	</body>
-</html>
+</body>
 
+</html>
