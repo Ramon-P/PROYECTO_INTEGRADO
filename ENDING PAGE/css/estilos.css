@@ -1,0 +1,58 @@
+.posit {
+    background-repeat: no-repeat;
+    background-image: url(../img/posit.png);
+    width: 161px;
+    height: 140px;
+    padding: 115px;
+    float: right;
+    margin: 0px auto;
+}
+
+.input-contenedor textarea {
+    margin-left: 40px;
+    background-color: rgba(252, 243, 119, 0);
+    border-style: hidden;
+    width: 161px;
+    height: 100px;
+}
+
+textarea {
+    resize: none;
+    margin-left: 30px;
+    background-color: rgba(252, 243, 119, 0);
+    border-style: hidden;
+    width: 220px;
+}
+
+#tit {
+    float: right;
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    margin: 0 0 1em 1em;
+}
+
+.input-contenedor textarea:focus {
+    border: none;
+    outline: none;
+    border-style: hidden;
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+    border-style: hidden;
+}
+
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(169, 169, 169, 0.103);
+    outline: 1px solid rgba(112, 128, 144, 0.288);
+}
